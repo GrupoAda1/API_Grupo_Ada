@@ -65,12 +65,12 @@
 <br>
 
 ## 🎯 Backlogs
-|  ID  |  Sprint  |  Item  |  Descrição  |  Estimativa de entrega  |  Status  |  Prioridade  |
+|  ID  |  Sprint  |  Item  |  Descrição  |  Estimativa de esforço  |  Status  |  Prioridade  |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  #01  |  1  |  Design de Informação  |  Definir a estrutura de informações do site, esboçar um mapa de navegação  |  0h  |  :heavy_check_mark:  |  0  |
-|  #02  |  1  |  Design Visual  |  Desenvolver o conceito de design do site, incluindo cores, tipografia e logotipo  |  0h  |  :heavy_check_mark:  |  0  |
-|  #03  |  1  |  Configuração de Ambiente de Desenvolvimento  |   Configurar um ambiente de desenvolvimento web (github)  |  2h  |  :heavy_check_mark:  |  95  |
-|  #04  |  1  |  Desenvolvimento de Layout Inicial da Página Inicial  |   Criar a página inicial do site  |  0h  |  :heavy_check_mark:  |  0  |
+|  #01  |  1  |  Design de Informação  |  Definir a estrutura de informações do site, esboçar um mapa de navegação  |  3h  |  :heavy_check_mark:  |  80  |
+|  #02  |  1  |  Design Visual  |  Desenvolver o conceito de design do site, incluindo cores, tipografia e logotipo  |  2h  |  :heavy_check_mark:  |  75  |
+|  #03  |  1  |  Configuração de Ambiente de Desenvolvimento  |   Configurar um ambiente de desenvolvimento web (github)  |  2h  |  :heavy_check_mark:  |  90  |
+|  #04  |  1  |  Desenvolvimento de Layout Inicial da Página Inicial  |   Criar a página inicial do site  |  4h  |  :heavy_check_mark:  |  80  |
 |  #05  |  2  |  Criação de Conteúdo Inicial  |   Escrever os primeiros artigos e recursos sobre o Método Ágil  |  0h  |  :x:  |  0  |
 |  #06  |  2  |  Design de Página Interna  |   Desenvolver o design das páginas internas do site (html)  |  0h  |  :x:  |  0  |
 |  #07  |  2  |  Programação e Integração  |   Iniciar o desenvolvimento do site nas linguagens de marcação e programação  |  0h  |  :x:  |  0  |
@@ -111,8 +111,8 @@
 | Larissa Colucci Gomes  | Product Owner |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LarissaCGomes)|    |
 | Ana Clara Tolomelli  | Scrum Master |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ninabtolo)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anaclaratolomelli) |
 | Igor Siqueira Prado  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgorSiqueira7)|     |
-| Maria Clara Fernandes  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/) |
-| Pedro Henrique dos Santos  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/) |
+| Maria Clara Fernandes  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/)|    |
+| Pedro Henrique dos Santos  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/phsantos2)|    |
 | Poliana Maria de Souza  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PolianaSouza98)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/poliana-souza-680078111) |
 | Samara de Paula Santos  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SamaraSantos03)|      |
 | Thiago Ribeiro Dias  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yrnThiago)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-ribeiro-690b4114b/) |
