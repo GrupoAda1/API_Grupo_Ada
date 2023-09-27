@@ -108,8 +108,6 @@
 
 <br>
 
-## Tecnologias utilizadas
-
 ## Burndown
 https://1drv.ms/x/s!AlEABXwxEBRGhgTUaX_LN0_aP_HN?e=If1xqA
 
