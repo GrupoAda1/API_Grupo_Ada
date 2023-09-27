@@ -45,6 +45,10 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=ff6600&style=for-the-badge" />
 <br>
 
+## Objetivo do projeto 
+<h4> O produto tem como objetivo resolver o problema do cliente de heterogeneidade na hora da aplicação do método scrum em sua empresa devido a falta de conhecimento por parte dos funcionários em geral. </h4>
+<br> 
+
 ## 🔎 Visão do projeto
 <h4> • A nossa visão é transformar a complexidade do Método Scrum em simplicidade, capacitando os funcionários das empresas a compreender e implementar eficazmente essa metodologia ágil. Através deste site, buscamos fornecer recursos e orientações práticas para que equipes em todos os níveis possam abraçar o Scrum como uma ferramenta poderosa para melhorar a colaboração, aumentar a produtividade e alcançar resultados excepcionais. Nosso compromisso é tornar o Scrum acessível a todos, capacitando-os a trazer agilidade e inovação para seus ambientes de trabalho. </h4>
 <br>
@@ -103,6 +107,9 @@
 </div>
 
 <br>
+
+## Burndown
+https://1drv.ms/x/s!AlEABXwxEBRGhgTUaX_LN0_aP_HN?e=If1xqA
 
 ## 💻 Equipe
 
