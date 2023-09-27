@@ -45,7 +45,7 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=ff6600&style=for-the-badge" />
 <br>
 
-## Objetivo do projeto 
+## 🎯 Objetivo do projeto 
 <h4> O produto tem como objetivo resolver o problema do cliente de heterogeneidade na hora da aplicação do método scrum em sua empresa devido a falta de conhecimento por parte dos funcionários em geral. </h4>
 <br> 
 
@@ -68,7 +68,7 @@
 <h3>• Sprint 4 (06/11 - 26/11): Aguardando data de início :calendar:</h3>
 <br>
 
-## 🎯 Backlogs
+## 📝 Backlogs
 |  ID  |  Sprint  |  Item  |  Descrição  |  Estimativa de esforço  |  Status  |  Prioridade  |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 |  #01  |  1  |  Design de Informação  |  Definir a estrutura de informações do site, esboçar um mapa de navegação  |  3h  |  :heavy_check_mark:  |  80  |
@@ -108,8 +108,13 @@
 
 <br>
 
-## Burndown
-https://1drv.ms/x/s!AlEABXwxEBRGhgTUaX_LN0_aP_HN?e=If1xqA
+## 📊 Burndown
+<div align="center">
+  <a href="https://1drv.ms/x/s!AlEABXwxEBRGhgTUaX_LN0_aP_HN?e=If1xqA">
+    <img src="imagens/burndown.png"/>
+  </a>
+</div>
+
 
 ## 💻 Equipe
 
@@ -118,7 +123,7 @@ https://1drv.ms/x/s!AlEABXwxEBRGhgTUaX_LN0_aP_HN?e=If1xqA
 | Larissa Colucci Gomes  | Product Owner |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LarissaCGomes)|    |
 | Ana Clara Tolomelli  | Scrum Master |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ninabtolo)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anaclaratolomelli) |
 | Igor Siqueira Prado  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgorSiqueira7)|     |
-| Maria Clara Fernandes  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/)|    |
+| Maria Clara Fernandes  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/claramfb)|    |
 | Pedro Henrique dos Santos  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/phsantos2)|    |
 | Poliana Maria de Souza  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PolianaSouza98)|[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/poliana-souza-680078111) |
 | Samara de Paula Santos  | Dev Team |[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SamaraSantos03)|      |
