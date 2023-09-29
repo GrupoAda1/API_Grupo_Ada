@@ -108,13 +108,6 @@
 
 <br>
 
-## 📊 Burndown
-<div align="center">
-  <a href="https://1drv.ms/x/s!AlEABXwxEBRGhgTUaX_LN0_aP_HN?e=If1xqA">
-    <img src="imagens/burndown.png"/>
-  </a>
-</div>
-
 
 ## 💻 Equipe
 
