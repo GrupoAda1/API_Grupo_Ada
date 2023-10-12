@@ -82,9 +82,9 @@
 |  #09  |  3  |  Testes de Funcionalidade  |   Testar as funcionalidades implementadas  |  5h  |  :x:  |  80  |
 |  #10  |  3  |  Otimização de Desempenho  |   Otimizar o desempenho do site e refinar scripts  |  8h  |  :x:  |  90  |
 |  #11  |  3  |  Preparação para a entrega  |   Preparar o site para lançamento, incluindo revisões finais e testes de segurança  |  4h  |  :x:  |  60  |
-|  #12  |  4  |  Documentação  |   Criar documentação interna e externa para o site  |  0h  |  :x:  |  0  |
-|  #13  |  4  |  Entrega  |   Realizar a entrega final do produto  |  0h  |  :x:  |  0  |
-|  #14  |  4  |  Avaliação pós-lançamento  |   Coletar feedback dos usuários e planejar melhorias  |  0h  |  :x:  |  0  |
+|  #12  |  4  |  Documentação  |   Criar documentação interna e externa para o site  |  8h  |  :x:  |  90  |
+|  #13  |  4  |  Entrega  |   Realizar a entrega final do produto  |  4h  |  :x:  |  80  |
+|  #14  |  4  |  Avaliação pós-lançamento  |   Coletar feedback dos usuários e planejar melhorias  |  4h  |  :x:  |  70  |
 <br>
 
 ## 🎨 Wireframe
