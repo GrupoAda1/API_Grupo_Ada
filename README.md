@@ -63,7 +63,7 @@
 
 ## 📅 Sprints
 <h3>• Sprint 1 (04/09 - 24/09): <a href="#-wireframe">Wireframe</a> (Concluído:heavy_check_mark:) </h3>
-<h3>• Sprint 2 (25/09 - 15/10): Aguardando data de início :calendar:</h3>
+<h3>• Sprint 2 (25/09 - 15/10): HTML do Site (Em andamento ⏰ ) </h3>
 <h3>• Sprint 3 (16/10 - 05/11): Aguardando data de início :calendar:</h3>
 <h3>• Sprint 4 (06/11 - 26/11): Aguardando data de início :calendar:</h3>
 <br>
