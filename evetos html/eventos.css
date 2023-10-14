@@ -1,0 +1,53 @@
+
+
+body {
+  background-color: white;   
+}
+
+.botão{  
+
+border-radius: 23px;
+background: #BCCFDE;
+
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
+
+float: left;
+margin: 10px;
+
+display: flex;
+width: 224px;
+height: 52px;
+
+flex-shrink: 0;
+text-decoration: none;
+color: #65839D;
+text-align: center;
+font-family: Recursive;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+
+opacity: 1;
+cursor: pointer;
+
+}
+
+.botão:hover{opacity: 0.6;}
+
+
+.Oq{
+
+float: left;
+padding: 0%;
+
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 3%;
+
+text-decoration: none;
+text-align: center;
+font-family: Recursive;
+font-size: 18px;
+}
