@@ -110,11 +110,11 @@
 
 ## MVP2
 
-<a href="https://youtu.be/KZ_x5M7v-CM">
+<a href="https://youtu.be/KZ_x5M7v-CM"> </a>
 
 ## Apresentação Sprint 2
 
-<a href="https://youtu.be/dtGs6KfuQ9E">
+<a href="https://youtu.be/dtGs6KfuQ9E"> </a>
 
 
 ## 💻 Equipe
