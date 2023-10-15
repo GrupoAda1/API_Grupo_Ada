@@ -113,6 +113,8 @@
 <a href="https://youtu.be/KZ_x5M7v-CM"> 
 </a>
 
+<br>
+
 ## Apresentação Sprint 2
 
 <a href="https://youtu.be/dtGs6KfuQ9E"> 
