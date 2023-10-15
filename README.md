@@ -110,16 +110,15 @@
 
 ## MVP2
 
-<a href="https://youtu.be/KZ_x5M7v-CM"> 
-</a>
-
-<br>
+  <a href="https://youtu.be/KZ_x5M7v-CM">
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" />
+  </a>
 
 ## Apresentação Sprint 2
 
-<a href="https://youtu.be/dtGs6KfuQ9E"> 
-</a>
-
+<a href="https://youtu.be/dtGs6KfuQ9E">
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" />
+  </a>
 
 ## 💻 Equipe
 
