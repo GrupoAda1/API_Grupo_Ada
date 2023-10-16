@@ -75,9 +75,9 @@
 |  #02  |  1  |  Design Visual  |  Desenvolver o conceito de design do site, incluindo cores, tipografia e logotipo  |  2h  |  :heavy_check_mark:  |  75  |
 |  #03  |  1  |  Configuração de Ambiente de Desenvolvimento  |   Configurar um ambiente de desenvolvimento web (github)  |  2h  |  :heavy_check_mark:  |  90  |
 |  #04  |  1  |  Desenvolvimento de Layout Inicial da Página Inicial  |   Criar a página inicial do site  |  4h  |  :heavy_check_mark:  |  80  |
-|  #05  |  2  |  Criação de Conteúdo Inicial  |   Escrever os primeiros artigos e recursos sobre o Método Ágil  |  6h  |  ✔️  |  70  |
-|  #06  |  2  |  Design de Página Interna  |   Desenvolver o design das páginas internas do site (html)  |  10h  |  :x:  |  80  |
-|  #07  |  2  |  Programação e Integração  |   Iniciar o desenvolvimento do site nas linguagens de marcação e programação  |  10h  |  :x:  |  90  |
+|  #05  |  2  |  Criação de Conteúdo Inicial  |   Escrever os primeiros artigos e recursos sobre o Método Ágil  |  6h  |  :heavy_check_mark:  |  70  |
+|  #06  |  2  |  Design de Página Interna  |   Desenvolver o design das páginas internas do site (html)  |  10h  |  :heavy_check_mark:  |  80  |
+|  #07  |  2  |  Programação e Integração  |   Iniciar o desenvolvimento do site nas linguagens de marcação e programação  |  10h  |  :heavy_check_mark:  |  90  |
 |  #08  |  3  |  Implementação de Funcionalidades Adicionais  |   Adicionar recursos como pesquisa, categorização de conteúdo e formulários  |  12h  |  :x:  |  70  |
 |  #09  |  3  |  Testes de Funcionalidade  |   Testar as funcionalidades implementadas  |  5h  |  :x:  |  80  |
 |  #10  |  3  |  Otimização de Desempenho  |   Otimizar o desempenho do site e refinar scripts  |  8h  |  :x:  |  90  |
