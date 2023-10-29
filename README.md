@@ -71,20 +71,20 @@
 ## 📝 Backlogs
 |  ID  |  Sprint  |  Item  |  Descrição  |  Estimativa de esforço  |  Status  |  Prioridade  |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|  #01  |  1  |  Design de Informação  |  Definir a estrutura de informações do site, esboçar um mapa de navegação  |  3h  |  :heavy_check_mark:  |  80  |
-|  #02  |  1  |  Design Visual  |  Desenvolver o conceito de design do site, incluindo cores, tipografia e logotipo  |  2h  |  :heavy_check_mark:  |  75  |
-|  #03  |  1  |  Configuração de Ambiente de Desenvolvimento  |   Configurar um ambiente de desenvolvimento web (github)  |  2h  |  :heavy_check_mark:  |  90  |
-|  #04  |  1  |  Desenvolvimento de Layout Inicial da Página Inicial  |   Criar a página inicial do site  |  4h  |  :heavy_check_mark:  |  80  |
-|  #05  |  2  |  Criação de Conteúdo Inicial  |   Escrever os primeiros artigos e recursos sobre o Método Ágil  |  6h  |  :heavy_check_mark:  |  70  |
-|  #06  |  2  |  Design de Página Interna  |   Desenvolver o design das páginas internas do site (html)  |  10h  |  :heavy_check_mark:  |  80  |
-|  #07  |  2  |  Programação e Integração  |   Iniciar o desenvolvimento do site nas linguagens de marcação e programação  |  10h  |  :heavy_check_mark:  |  90  |
-|  #08  |  3  |  Implementação de Funcionalidades Adicionais  |   Adicionar recursos como pesquisa, categorização de conteúdo e formulários  |  12h  |  :x:  |  70  |
-|  #09  |  3  |  Testes de Funcionalidade  |   Testar as funcionalidades implementadas  |  5h  |  :x:  |  80  |
-|  #10  |  3  |  Otimização de Desempenho  |   Otimizar o desempenho do site e refinar scripts  |  8h  |  :x:  |  90  |
-|  #11  |  3  |  Preparação para a entrega  |   Preparar o site para lançamento, incluindo revisões finais e testes de segurança  |  4h  |  :x:  |  60  |
-|  #12  |  4  |  Documentação  |   Criar documentação interna e externa para o site  |  8h  |  :x:  |  90  |
-|  #13  |  4  |  Entrega  |   Realizar a entrega final do produto  |  4h  |  :x:  |  80  |
-|  #14  |  4  |  Avaliação pós-lançamento  |   Coletar feedback dos usuários e planejar melhorias  |  4h  |  :x:  |  70  |
+|  #01  |  1  |  Design de Informação  |  Definir a estrutura de informações do site, esboçar um mapa de navegação  |  3h  |  :heavy_check_mark:  |  90  |
+|  #02  |  1  |  Design Visual  |  Desenvolver o conceito de design do site, incluindo cores, tipografia e logotipo  |  2h  |  :heavy_check_mark:  |  100  |
+|  #03  |  1  |  Configuração de Ambiente de Desenvolvimento  |   Configurar um ambiente de desenvolvimento web (github)  |  2h  |  :heavy_check_mark:  |  85  |
+|  #04  |  1  |  Desenvolvimento de Layout Inicial da Página Inicial  |   Criar a página inicial do site  |  4h  |  :heavy_check_mark:  |  95  |
+|  #05  |  2  |  Criação de Conteúdo Inicial  |   Escrever os primeiros artigos e recursos sobre o Método Ágil  |  6h  |  :heavy_check_mark:  |  65  |
+|  #06  |  2  |  Design de Página Interna  |   Desenvolver o design das páginas internas do site (html)  |  10h  |  :heavy_check_mark:  |  60  |
+|  #07  |  2  |  Programação e Integração  |   Iniciar o desenvolvimento do site nas linguagens de marcação e programação  |  10h  |  :heavy_check_mark:  |  70  |
+|  #08  |  3  |  Implementação de Funcionalidades Adicionais  |   Adicionar recursos como pesquisa, categorização de conteúdo e formulários  |  12h  |  :x:  |  50  |
+|  #09  |  3  |  Testes de Funcionalidade  |   Testar as funcionalidades implementadas  |  5h  |  :x:  |  45  |
+|  #10  |  3  |  Otimização de Desempenho  |   Otimizar o desempenho do site e refinar scripts  |  8h  |  :x:  |  40  |
+|  #11  |  3  |  Preparação para a entrega  |   Preparar o site para lançamento, incluindo revisões finais e testes de segurança  |  4h  |  :x:  |  30  |
+|  #12  |  4  |  Documentação  |   Criar documentação interna e externa para o site  |  8h  |  :x:  |  20  |
+|  #13  |  4  |  Entrega  |   Realizar a entrega final do produto  |  4h  |  :x:  |  30  |
+|  #14  |  4  |  Avaliação pós-lançamento  |   Coletar feedback dos usuários e planejar melhorias  |  4h  |  :x:  |  25  |
 <br>
 
 ## 🎨 Wireframe
