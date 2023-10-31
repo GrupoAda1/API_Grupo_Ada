@@ -11,7 +11,9 @@
 </head>
 
 <header class="cabecalho" style="background-color: #DEEBF3;">
-    <img src="{{ url_for('static', filename='imagens/logo.png') }}" alt="Logo">
+    <a href="{{ url_for('oqueescrum.index') }}">
+        <img src="{{ url_for('static', filename='imagens/logo.png') }}" alt="Logo">
+    </a>
     <nav class="cabecalho-menu">
         <a class="menu" href="{{ url_for('oqueescrum.index') }}">O que é o Scrum?</a>
         <a class="menu" href="{{ url_for('equipe_scrum.index') }}">Equipe Scrum</a>
