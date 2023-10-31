@@ -89,12 +89,12 @@
 
 ## 🎨 Wireframe
 <div style="display: grid;" align="center">
-  <img src="/imagens/wireframe/pagina_home.png" width="400" height="225"/>
-  <img src="/imagens/wireframe/pagina_equipe_scrum.png" width="400" height="225"/>
-  <img src="/imagens/wireframe/pagina_artefatos.png" width="400" height="225"/>
-  <img src="/imagens/wireframe/pagina_eventos.png" width="400" height="225"/>
-  <img src="/imagens/wireframe/pagina_como_aplicar.png" width="400" height="225"/>
-  <img src="/imagens/wireframe/pagina_referencias.png" width="400" height="225"/>
+  <img src="/app/static/imagens/wireframe/pagina_home.png" width="400" height="225"/>
+  <img src="/app/static/imagens/wireframe/pagina_equipe_scrum.png" width="400" height="225"/>
+  <img src="/app/static/imagens/wireframe/pagina_artefatos.png" width="400" height="225"/>
+  <img src="/app/static/imagens/wireframe/pagina_eventos.png" width="400" height="225"/>
+  <img src="/app/static/imagens/wireframe/pagina_como_aplicar.png" width="400" height="225"/>
+  <img src="/app/static/imagens/wireframe/pagina_referencias.png" width="400" height="225"/>
 </div>
 
 <div align="center">
