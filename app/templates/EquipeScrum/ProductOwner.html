@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+
+{% block title %}Equipe Scrum | Product Owner{% endblock %}
+{% block body %}
+
+<a href="{{ url_for('equipe_scrum.scrum_master') }}" class="botão" style="margin-left: 22% ;">Scrum Master</a>
+<a href="{{ url_for('equipe_scrum.product_owner') }}" class="botão">Product Owner</a>
+<a href="{{ url_for('equipe_scrum.index') }}" class="botão">Developer</a>
+
+<!-------------------------------------------------O que é Product Owner------------------------------------------------->
+<nav>
+    <a href="#" class="sub_botão" style="margin-left: 42.5% ;">O que é Product Owner?</a>
+</nav>    
+    <p class="Oq" style="text-align: justify; margin: 3% 3% 0%; font-size: 16px;" >
+        Ele é um facilitador e líder da equipe, ajudando assim É a pessoa responsável por definir o que será construído, garantindo que o produto atenda às necessidades dos clientes e que assim alinhe as estratégias da empresa ao desenvolvimento de forma mais eficaz e prioritária pela equipe. O P.O é responsável por:
+    </p>
+    <ul class="Oq" style="text-align: justify; margin: 0% 5%; font-size: 12px;">
+        <li>Visão e Estratégia: será responsável por definir a visão do produto e alinhá-la com a estratégia da empresa. Eles devem compreender as necessidades do cliente e do mercado para orientar o desenvolvimento do produto na direção certa. </li>
+        <li>Priorização: Ele classifica as tarefas e funcionalidades do produto com base no valor que elas entregam ao cliente e ao negócio, fazendo com que a equipe foque no que é mais importante. </li>
+        <li>Gestão do backlog: mantém um backlog de itens a serem desenvolvidos, priorizados, detalhados e a lista de tarefas que a equipe trabalhará </li>
+        <li>Comunicação: Ele atua em contato direto com o cliente criando um elo entre ele e a equipe para que assim os interesses do cliente sejam ouvidos e passados para todo o resto.</li>
+        <li>Tomada de decisões: Ele toma decisões sobre o que deve ser passado ou alterado sobre cada ciclo de desenvolvimento com base nas necessidades do cliente e nas mudanças do mercado. </li>
+        <li>Avaliação de resultados: Ele avalia constantemente o processo do produto, coletando feedback e métricas para ajustar às estratégias e direção do desenvolvimetoa seguir o método, Eles removem obstáculos, garantem que a equipe siga as regras do Scrum e promovem uma melhoria contínua.</li>
+    </ul>
+        <p class="Oq" style="margin: 2% 20% 0%; font-size: 20px;">Dia a Dia de um Product Owner</p>
+
+    <img class="Oq" src="{{ url_for('static', filename='/imagens/OqPO.png') }}" alt="Dia a Dia de um Product Owner" style="margin: 0% 20%;">
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<!-----------------------------------------------Principais Responsabilidades-------------------------------------------->
+<nav>
+    <a href="#" class="sub_botão" style="margin-left: 42.5% ; margin-top: 5%;">Principais Responsabilidades</a>
+</nav>
+    <img src="{{ url_for('static', filename='/imagens/RespPO.png') }}" alt="Principais Responsabilidades" style="margin: 3% 19% 0%;">
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<!--------------------------------------------------Sobre o Product Owner ----------------------------------------------->
+<nav>
+    <a href="#" class="sub_botão" style="margin-left: 42.5% ; margin-top: 2%;">Sobre o Product Owner</a>
+</nav>
+
+<ul class="Oq" style="font-size: 16px; margin-left:15%; margin-bottom: 10%; text-align: justify;">
+    <li style="font-size: 18px;">Caracteristicas/ Habilidades pessoais
+    
+    <!-------------------------------->
+        <li style="margin-top: 0%; margin-left: 2%;">Conhecimento do negocio
+            <ul>
+                <li style="margin-left: 2%; font-size: 14px;">
+                    O Product Owner deve ser um visionário capaz de sintetizar a visão do produto e levar a equipe para alcançar essa visão.
+                    <p style="margin-top: 1%; margin-bottom: 1%;">
+                    Para ser eficaz na criação e execução da visão, o Product Owner deve ter o conhecimento e domínio do negócio
+                    </p>
+                </li>
+            </ul>
+        </li>
+    <!-------------------------------->
+
+    <!-------------------------------->
+        <li style="margin-top: 2%; margin-left: 2%;">Habilidade com Pessoas
+            <ul>
+                <li style="margin-left: 2%; font-size: 14px;">
+                    Um Product Owner também deve ser a “voz do cliente”, o que requer um bom relacionamento com estes.
+
+                    <p style="font-size: 13px; margin-left: 2%; margin-top: 1%; margin-bottom: 1%;">
+                    "É normal que muitas vezes as pessoas tenham necessidades conflitantes, portanto o Product Owner deve ser um bom negociador e sempre buscar um consenso."
+                    </p>
+
+                    Como o Product Owner é o eixo entre a comunidade de interessados no projeto e o resto da Equipe     Scrum, esta posição exige uma boa comunicação para transmitir as informações da forma mais apropriada.
+                </li>
+            </ul>
+        </li>
+    <!-------------------------------->
+
+    <!-------------------------------->
+        <li style="margin-top: 2%; margin-left: 2%;">Autoridade
+            <ul>
+                <li style="margin-left: 2%; font-size: 14px;">
+                    O Product Owner deve ter a autoridade necessária na organização para tomar decisões.
+                
+                    <p style="margin-top: 1%; margin-bottom: 1%;">Um problema frequente em empresas que recém adotam Scrum é que a pessoa selecionada para ser o Product Owner não tem poderes para tomar todas as decisões importantes do projeto. Tal pessoa não deve ser o Product Owner.</p>
+
+                    O Product Owner também deve estar preparado para tomar as decisões mais duras, como mudanças de escopo, data e orçamento. Estas decisões devem ser tomadas em tempo hábil e não devem ser revertidas sem uma boa razão.
+
+                </li>
+            </ul>   
+        </li>
+    <!-------------------------------->
+
+    <!--------------------------------> 
+        <li style="margin-top: 2%; margin-left: 2%;">Responsabilidade
+            <ul>
+                <li style="margin-left: 2%; font-size: 14px;">
+                    O Product Owner é o responsável por entregar bons resultados do ponto de vista de negócios.
+                    <p style="margin-top: 1%; margin-bottom: 1%;">
+                    Isso não quer dizer que a Equipe Scrum não tem sua parcela de responsabilidade nisso. O ponto aqui é enfatizar que o Product Owner é responsável por se certificar que os recursos estão sendo usados da melhor forma para atingir os resultados de negócio esperado.
+                    </p>
+
+                    <p style="font-size: 13px; margin-left: 2%; margin-top: 1%; margin-bottom: 1%;"> 
+                    "Product Owner é um membro da Equipe de Scrum e, portanto, deve entender que os bons resultados econômicos são impossíveis sem os esforços colaborativos da Equipe Scrum como um todo."
+                    </p>
+
+                    Desta forma, o Product Owner deve trabalhar junto com a Equipe de Desenvolvimento e Scrum Master para que esta parceria resulte em resultados satisfatórios.
+                
+                </li>
+            </ul>
+        </li>
+    <!-------------------------------->
+    </li>
+</ul>
+
+{% endblock %}

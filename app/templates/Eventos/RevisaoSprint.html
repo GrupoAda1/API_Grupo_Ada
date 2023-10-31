@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Execução Sprint{% endblock %}
+{% block body %}
+    
+<a href="{{ url_for('eventos.index') }}" class="botão" style="padding-left: 2% ;">Planejamento da sprint</a>
+<a href="{{ url_for('eventos.reuniao_diaria') }}" class="botão">Reunião diária</a>
+<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução da Sprint</a>
+<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão da Sprint</a>
+<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva da Sprint</a>
+
+
+<p class="Oq" style="margin: 8%; text-align: justify;">
+    Ao final de cada sprint, a equipe apresenta o que foi realizado e obtém feedback, para assim
+    ajustar o backlog do produto.
+</p>
+{% endblock %}

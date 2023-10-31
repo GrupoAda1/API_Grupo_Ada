@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}Equipe Scrum | Dev Team{% endblock %}
+{% block body %}
+
+<a href="{{ url_for('equipe_scrum.scrum_master') }}" class="botão" style="margin-left: 22% ;">Scrum Master</a>
+<a href="{{ url_for('equipe_scrum.product_owner') }}" class="botão">Product Owner</a>
+<a href="{{ url_for('equipe_scrum.index') }}" class="botão">Developer</a>
+
+<!---------------------------------------------------O que é Developer------------------------------------------------>
+<nav>
+    <a href="#" class="sub_botão" style="margin-left: 42.5% ;">O que são os Developers?</a>
+</nav>
+<p class="Oq" style="font-size: 16px; text-align: justify;">
+    A equipe de desenvolvimento é responsável por criar o produto ou entregar o projeto. Eles são especialistas em diversas áreas, como programação, design e testes, e trabalham juntos para transformar as necessidades do cliente em incrementos funcionais do produto, isto é, entregar a cada sprint a parte mais funcional do produto até o fim da entrega final. Por tanto essa parte da equipe é o time que constrói efetivamente o que foi planejado, transformando as ideias em realidade.
+</p>
+
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<!----------------------------------------------Principais Responsabilidades--------------------------------------------->
+<nav>
+    <a href="#" class="sub_botão" style="margin-left: 42.5% ; margin-top: 5%;">Principais Responsabilidades</a>
+</nav>
+<img src="{{ url_for('static', filename='/imagens/RespD.png') }}" alt="Principais Responsabilidades" style="margin: 0% 20% 3%;">
+<!----------------------------------------------------------------------------------------------------------------------->
+
+<!-------------------------------------------------Sobre o Time Scrum-------------------------------------------------->
+<nav>
+    <a href="#" class="sub_botão" style="margin-left: 42.5% ; margin-top: 1%;">Sobre o Time Scrum</a>
+</nav>
+<img src="{{ url_for('static', filename='/imagens/SobreD.png') }}" alt="Sobre O Scrum Master" style="margin: 3% 20% ;">
+<!----------------------------------------------------------------------------------------------------------------------->
+
+{% endblock %}

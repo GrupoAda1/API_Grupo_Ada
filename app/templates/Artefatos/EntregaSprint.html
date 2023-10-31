@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Artefatos | Entrega Sprint{% endblock %}
+{% block body %}
+
+<a href="{{ url_for('artefatos.index') }}" class="botão" style="margin-left: 22% ;">Backlog do Produto</a>
+<a href="{{ url_for('artefatos.backlog_sprint') }}" class="botão">Backlog da Sprint</a>
+<a href="{{ url_for('artefatos.entrega_sprint') }}" class="botão">Entrega da Sprint</a>
+
+<p class="Oq" style="margin: 3% 5%;">
+    É o momento em que a equipe de desenvolvimento exibe o progresso feito durante a sprint, o que permite a avaliação, ajustes e colaboração contínua no desenvolvimento do produto.
+</p>
+
+{% endblock %}
