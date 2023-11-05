@@ -57,14 +57,14 @@
 <h4> • O Scrum é uma metodologia ágil de gerenciamento de projetos que se baseia em ciclos iterativos curtos, chamados de "sprints", nos quais equipes colaborativas trabalham em conjunto para criar entregas incrementais de um projeto, priorizando tarefas em listas de pendências chamadas "backlogs". O Scrum promove a transparência, a adaptação constante e a comunicação eficaz, permitindo que as equipes respondam de forma ágil às mudanças nos requisitos e alcancem resultados de alta qualidade de forma iterativa. </h4>
 <br>
 
-## 🚲 MVP
+## 🚗 MVP
 <h4> • O MVP, ou Mínimo Produto Viável, é uma abordagem no desenvolvimento de produtos que envolve a criação de uma versão simplificada com apenas os recursos essenciais para atender às necessidades básicas dos primeiros usuários, com o objetivo de validar a viabilidade e aceitação do produto no mercado, coletando feedback valioso para direcionar o desenvolvimento de maneira eficiente e reduzir riscos. </h4>
 <br>
 
 ## 📅 Sprints
 <h3>• Sprint 1 (04/09 - 24/09): <a href="#-wireframe">Wireframe</a> (Concluído:heavy_check_mark:) </h3>
 <h3>• Sprint 2 (25/09 - 15/10): <a href="#mvp-sprint-2-site">HTML do site</a> (Concluído:heavy_check_mark:) </h3>
-<h3>• Sprint 3 (16/10 - 05/11): Aguardando data de início :calendar:</h3>
+<h3>• Sprint 3 (16/10 - 05/11): Flask (Concluído:heavy_check_mark:) </h3>
 <h3>• Sprint 4 (06/11 - 26/11): Aguardando data de início :calendar:</h3>
 <br>
 
@@ -78,10 +78,10 @@
 |  #05  |  2  |  Criação de Conteúdo Inicial  |   Escrever os primeiros artigos e recursos sobre o Método Ágil  |  6h  |  :heavy_check_mark:  |  65  |
 |  #06  |  2  |  Design de Página Interna  |   Desenvolver o design das páginas internas do site (html)  |  10h  |  :heavy_check_mark:  |  60  |
 |  #07  |  2  |  Programação e Integração  |   Iniciar o desenvolvimento do site nas linguagens de marcação e programação  |  10h  |  :heavy_check_mark:  |  70  |
-|  #08  |  3  |  Implementação de Funcionalidades Adicionais  |   Adicionar recursos como pesquisa, categorização de conteúdo e formulários  |  12h  |  :x:  |  50  |
-|  #09  |  3  |  Testes de Funcionalidade  |   Testar as funcionalidades implementadas  |  5h  |  :x:  |  45  |
-|  #10  |  3  |  Otimização de Desempenho  |   Otimizar o desempenho do site e refinar scripts  |  8h  |  :x:  |  40  |
-|  #11  |  3  |  Preparação para a entrega  |   Preparar o site para lançamento, incluindo revisões finais e testes de segurança  |  4h  |  :x:  |  30  |
+|  #08  |  3  |  Implementação de Funcionalidades Adicionais  |   Adicionar recursos como pesquisa, categorização de conteúdo e formulários  |  12h  |  :heavy_check_mark:  |  50  |
+|  #09  |  3  |  Testes de Funcionalidade  |   Testar as funcionalidades implementadas  |  5h  |  :heavy_check_mark:  |  45  |
+|  #10  |  3  |  Otimização de Desempenho  |   Otimizar o desempenho do site e refinar scripts  |  8h  |  :heavy_check_mark:  |  40  |
+|  #11  |  3  |  Preparação para a entrega  |   Preparar o site para lançamento, incluindo revisões finais e testes de segurança  |  4h  |  :heavy_check_mark:  |  30  |
 |  #12  |  4  |  Documentação  |   Criar documentação interna e externa para o site  |  8h  |  :x:  |  20  |
 |  #13  |  4  |  Entrega  |   Realizar a entrega final do produto  |  4h  |  :x:  |  30  |
 |  #14  |  4  |  Avaliação pós-lançamento  |   Coletar feedback dos usuários e planejar melhorias  |  4h  |  :x:  |  25  |
