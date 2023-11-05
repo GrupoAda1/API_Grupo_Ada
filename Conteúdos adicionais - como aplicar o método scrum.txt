@@ -22,10 +22,10 @@ Eventos do Scrum:
 - Como planejar a Sprint: para planejar a Sprint, a equipe deverá distribuir o que será feito na próxima Sprint a partir da distribuição das tarefas determinadas na backlog da Sprint, e o tempo estimado para sua conclusão.
 - Como realizar uma daily: Presencialmente ou em uma plataforma de comunicação, reúna-se com a equipe e discutam o progresso realizado ao londo do dia, o que pretendem que seja feio a seguir e se há algum problema/impedimento para isso.
 - Como executar a Sprint: realize todas as tarefas determinadas na backlog, seguindo o prazo estimado. 
-- Como realizar uma revisão da sprint: 
+- Como realizar uma revisão da sprint: Após a apresentação de Sprint e o recebimento do feedback do cliente ou empresa, a equipe decide como prosseguir com os processos. 
 - como realizar uma retrospectiva da sprint: também presencialmente ou em plataformas de comunicação, a equipe deve se reunir para discutir os pontos fortes e fracos ao longo da Sprint, definir medidas para melhorias, eleger um destaque, ou seja, o integrante da equipe que mais foi eficiente e planejar a próxima Sprint.
 
-- Como aplicar o planning poker:
+
  
 
 
