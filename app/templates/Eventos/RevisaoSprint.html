@@ -2,16 +2,34 @@
 
 {% block title %}Execução Sprint{% endblock %}
 {% block body %}
-    
-<a href="{{ url_for('eventos.index') }}" class="botão" style="padding-left: 2% ;">Planejamento da sprint</a>
+
+<a href="{{ url_for('eventos.index') }}" class="botão" style="margin-left:6%;">Sprint</a>
 <a href="{{ url_for('eventos.reuniao_diaria') }}" class="botão">Reunião diária</a>
-<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução da Sprint</a>
-<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão da Sprint</a>
-<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva da Sprint</a>
+<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução</a>
+<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão</a>
+<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva</a>
 
+<h1 class="nav_botão">Revisão da Sprint</h1>
+<p class="extra"></p>
 
-<p class="Oq" style="margin: 8%; text-align: justify;">
-    Ao final de cada sprint, a equipe apresenta o que foi realizado e obtém feedback, para assim
-    ajustar o backlog do produto.
+<p class="subtitulo">
+    Seu principal objetivo é demonstrar o trabalho realizado pela equipe durante a iteração 
+    e obter feedback do Product Owner e outras partes interessadas. A revisão de uma Sprint 
+    é uma oportunidade para mostrar o que foi concluído, discutir o que está pronto para ser
+     entregue ao cliente e adaptar o Backlog do Produto com base no feedback recebido.
+</p>
+
+<h2 class="sub_botão" style="margin-bottom: 2%;"> Como realizar uma revisão da sprint</h2>
+
+<p class="subtitulo">
+    Antes da revisão, a equipe de desenvolvimento deve garantir que o incremento do produto esteja pronto para ser demonstrado. 
+    O Scrum Master é responsável por convocar a revisão de uma Sprint, enquanto  a equipe de desenvolvimento demonstra o trabalho 
+    concluído. Isso pode incluir a apresentação de novas funcionalidades, melhorias, correções de bugs ou qualquer outra entrega 
+    planejada para a Sprint.
+</p>
+
+<p class="subtitulo">
+    Durante a revisão, o Product Owner deve decidor se os itens demonstrados estão prontos para serem aceitos e entregues ao cliente.
+    Com base no feedback recebido durante a revisão e nas decisões do Product Owner, o Backlog do Produto pode ser atualizado. 
 </p>
 {% endblock %}

@@ -1,16 +1,29 @@
 {% extends 'base.html' %}
 
 {% block title %}Reunião Diária{% endblock %}
-{% block body %} 
-<a href="{{ url_for('eventos.index') }}" class="botão" style="padding-left: 2% ;">Planejamento da sprint</a>
-<a href="{{ url_for('eventos.reuniao_diaria') }}" class="botão">Reunião diária</a>
-<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução da Sprint</a>
-<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão da Sprint</a>
-<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva da Sprint</a>
+{% block body %}
 
-<p class="Oq" style="margin: 8%; text-align: justify;">
-    É um encontro diário curto, que é utilizado para discutir o que fez, o que fará e impedimentos
-    que possam estar dificultando o processo do desenvolvimento, para assim garantir que todos
-    estejam alinhados
+<a href="{{ url_for('eventos.index') }}" class="botão" style="margin-left:6%;">Sprint</a>
+<a href="{{ url_for('eventos.reuniao_diaria') }}" class="botão">Reunião diária</a>
+<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução</a>
+<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão</a>
+<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva</a>
+
+<h1 class="nav_botão">Reunião Diária</h1>
+
+<p class="extra"></p>
+
+<p class="subtitulo">
+    A Daily Scrum é uma reunião curta e regular que envolve a equipe de desenvolvimento, o Scrum Master e, às vezes, o Product Owner.
+     Ela tem como objetivo principal promover a comunicação, a colaboração e o alinhamento da equipe, bem como fornecer visibilidade 
+     sobre o progresso do trabalho durante uma Sprint
+</p>
+
+<h2 class="sub_botão" style="margin-bottom: 2%;"> Como realizar uma Daily</h2>
+
+<p class="subtitulo" >
+    Presencialmente ou em uma plataforma de comunicação, reúna-se com a equipe e discutam o progresso realizado ao londo do dia,
+    o que pretendem que seja feio a seguir e se há algum problema/impedimento para isso.
+
 </p>
 {% endblock %}

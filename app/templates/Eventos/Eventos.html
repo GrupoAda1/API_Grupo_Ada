@@ -3,15 +3,26 @@
 {% block title %}Eventos{% endblock %}
 {% block body %}
 
-<a href="{{ url_for('eventos.index') }}" class="botão" style="padding-left: 2% ;">Planejamento da sprint</a>
+<a href="{{ url_for('eventos.index') }}" class="botão" style="margin-left:6%;">Sprint</a>
 <a href="{{ url_for('eventos.reuniao_diaria') }}" class="botão">Reunião diária</a>
-<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução da Sprint</a>
-<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão da Sprint</a>
-<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva da Sprint</a>
+<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução</a>
+<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão</a>
+<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva</a>
 
-<p class="Oq" style="margin: 8%; text-align: justify;">
-    É o planejamento do que deverá ser feito durante a sprint, selecionando itens do backlog de
-    produtos.
+<h1 class="nav_botão"> O que é uma Sprint?</h1>
+
+<p class="extra"></p>
+
+<p class="subtitulo">
+    A Sprint é uma iteração de curta duração, geralmente com uma duração de duas a quatro semanas,
+    durante a qual uma equipe de desenvolvimento trabalha em um conjunto específico de funcionalidades,
+    tarefas ou requisitos de um projeto.
 </p>
 
+<h2 class="sub_botão"> O planejamento de uma Sprint</h2>
+
+<p class="subtitulo" style="margin-top: 7%;">
+    Para planejar a Sprint, a equipe deverá distribuir o que será feito na próxima Sprint a
+    partir da distribuição das tarefas determinadas na backlog da Sprint, e o tempo estimado para sua conclusão.
+</p>
 {% endblock %}

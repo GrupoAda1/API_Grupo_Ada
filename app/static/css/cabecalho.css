@@ -8,25 +8,35 @@
 }
 
 body{
-    font-size: 100%;
+    min-width: 100vh;
+    background: white;
+    background-size: cover;
+    background-position: center;
 }
 
 .cabecalho{
-    display:flex;
-    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    padding: 25px 100px;
+    background: #DEEBF3;
+    box-shadow: 0px 3px 8px rgb(178, 178, 224);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    font-family: 'Recursive';
-    padding: 10px;
+    z-index: 100;
+    font-family: recursive;
 }
 
 .cabecalho-menu{
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 
 .menu {
     color: #264466;
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
 }

@@ -2,15 +2,25 @@
 
 {% block title %}Execução Sprint{% endblock %}
 {% block body %}
-<a href="{{ url_for('eventos.index') }}" class="botão" style="padding-left: 2% ;">Planejamento da sprint</a>
-<a href="{{ url_for('eventos.reuniao_diaria') }}" class="botão">Reunião diária</a>
-<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução da Sprint</a>
-<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão da Sprint</a>
-<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva da Sprint</a>
 
-<p class="Oq" style="margin: 8%; text-align: justify;">
-    É um período fixo de tempo, que normalmente pode durar entre 2 a semanas, durante a qual a
-    equipe de desenvolvimento trabalha para ent
-    regar uma parte pronta do produto.
+<a href="{{ url_for('eventos.index') }}" class="botão" style="margin-left:6%;">Sprint</a>
+<a href="{{ url_for('eventos.reuniao_diaria') }}" class="botão">Reunião diária</a>
+<a href="{{ url_for('eventos.execucao_sprint') }}" class="botão">Execução</a>
+<a href="{{ url_for('eventos.revisao_sprint') }}" class="botão">Revisão</a>
+<a href="{{ url_for('eventos.retrospectiva_sprint') }}" class="botão">Retrospectiva</a>
+
+<h1 class="nav_botão">Execução da Sprint</h1>
+
+<p class="extra"></p>
+
+<p class="subtitulo">A execução de uma Sprint é o período em que a equipe coloca em prática o trabalho planejado durante o planejamento da Sprint.
+    Se trata de um processo interativo e incremental que permite que a equipe entregue valor de maneira consistente e se adapte a
+     mudanças nas necessidades do projeto ou do cliente.</p>
+<h2 class="sub_botão" style="margin-bottom: 2%;"> Como executar a Sprint de forma eficaz</h2>
+
+<p class="subtitulo">
+    Certifique-se de que o planejamento da Sprint seja bem realizado. Isso envolve a seleção de itens do Backlog de Sprint 
+    com base em prioridades claras e na capacidade da equipe de desenvolvimento. À medida que a equipe ganha experiência, ela
+     se torna mais adaptável e capaz de executar Sprints com maior eficácia, entregando valor de maneira consistente.
 </p>
 {% endblock %}

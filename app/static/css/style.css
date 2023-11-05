@@ -1,34 +1,34 @@
 body {
-    background-color: white;   
+  background-color: white;   
 }
 
 .botão{  
-  
-  border-radius: 23px;
-  background: #BCCFDE;
 
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  
-  float: left;
-  margin: 4px 20px;
+border-radius: 23px;
+background: #BCCFDE;
 
-  display: flex;
-  width: 224px;
-  height: 52px;
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
 
-  flex-shrink: 0;
-  text-decoration: none;
-  color: #65839D;
-  text-align: center;
-  font-family: 'Recursive';
-  font-size: 20px;
-  font-weight: 700;
-  line-height: normal;
+float: left;
+margin-top: 10%;
+margin-right: 25px;
+display: flex;
+width: 250px;
+height: 50px;
 
-  opacity: 1;
-  cursor: pointer;
+flex-shrink: 0;
+text-decoration: none;
+color: #65839D;
+text-align: center;
+font-family: 'Recursive';
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+
+opacity: 1;
+cursor: pointer;
 
 }
 
@@ -36,45 +36,128 @@ body {
 
 
 .sub_botão{
-   
-  border-radius: 10px; /* Arredonda botão */
-  background: #65839D;
+background: #DEEBF3;
 
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  
-  float: left;
-  margin: 4px 7px;
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
 
-  display: flex;
-  width: 200px;
-  height: 50px;
+float: left;
+margin: center;
+margin-top: 30px;
+display: flex;
 
-  flex-shrink: 0;
-  text-decoration: none;
-  color: #264466;
-  text-align: center;
-  font-family: 'Recursive';
-  font-size: 18px;
-  font-weight: 700;
-  line-height: normal;
+width: 100%;
+height: 50px;
 
+flex-shrink: 0;
+text-decoration: none;
+color: #65839D;
+text-align: center;
+font-family: 'Recursive';
+font-size: 18px;
+font-weight: 700;
+line-height: normal;
 
+}
+
+.nav_botão{
+background: translucid;
+
+align-items: center;
+flex-direction: row;
+justify-content: space-around;
+
+float: left;
+margin: center;
+margin-top: 33px;
+display: flex;
+
+width: 100%;
+height: 70px;
+
+flex-shrink: 0;
+text-decoration: none;
+color: #264466;
+text-align: center;
+font-family: 'Recursive';
+font-size: 40px;
+font-weight: 700;
+line-height: normal;
 
 }
 
 .Oq{
-  
-  float: left;
-  padding: 0%;
+
+float: left;
+padding: 0%;
+
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 3%;
+
+text-decoration: none;
+text-align: center;
+font-family: 'Recursive';
+font-size: 18px;
+}
+
+.conteudo{
+  float: center;
+  padding: 4%;
+  background: #DEEBF3;
+  color: #264466;
 
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 3%;
-  
+  margin-top: 2%;
+
   text-decoration: none;
-  text-align: center;
-  font-family: 'Recursive';
+  text-align: justify;
+
+  font-family: recursive;
   font-size: 18px;
+  font-weight: 500px;
+}
+
+.titulo {
+  font-family: recursive;
+  float: center;
+  padding: 0%;
+  color: #264466;
+  font-size: 40px;
+  font-weight: 500px;
+  margin-left: 13%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.subtitulo{
+  float: center;
+  padding: 0%;
+  color: #264466;
+  font-size: 18px;
+  font-family:recursive;
+  font-weight: 400px;
+  margin-left: 13%;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
+.extra{
+  padding: 7.5%;
+  background: #DEEBF3;
+  color: #264466;
+}
+
+.topico{
+float: center;
+padding: 0%;
+color: #264466;
+font-size: 22px;
+font-family:recursive;
+font-weight: 400px;
+margin-left: 13%;
+margin-right: 10%;
+margin-top: 1%;
 }
