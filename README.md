@@ -120,6 +120,12 @@
     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" />
   </a>
 
+## MVP Sprint 3
+
+<a href="https://youtu.be/lqYvoJmOLgw">
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" />
+  </a>
+
 ## 💻 Equipe
 
 |  Membro  |  Função  |  Github  |  Linkedin  |
