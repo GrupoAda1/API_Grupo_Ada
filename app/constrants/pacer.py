@@ -1,0 +1,1 @@
+REQUISITOS = ["Proatividade", "Autonomia", "Colaboracao", "Entrega"]
