@@ -1,4 +1,4 @@
-from app.constrants.pacer import REQUISITOS
+from app.constrants.pacer import REQUISITOS, NOTAS
 
 def pacer(sigla_funcao):
     tbody = ""
@@ -11,7 +11,7 @@ def pacer(sigla_funcao):
             
             td += f"""<td>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="{input_name}" id="{input_id}" value="{i}" checked>
+                    <input class="form-check-input" type="radio" name="{input_name}" id="{input_id}" value="{NOTAS[i]}" checked>
                     <label class="form-check-label" for="input_id">{i}</label>
                 </div>
             </td>"""
