@@ -32,21 +32,61 @@ const pegaValoresPacer = (nameId) => {
 const submitForm = (e) => {
     e.preventDefault();
 
-    let notas_equipe = {
-        "ProductOwner": pegaValoresPacer("Po"),
-        "ScrumMaster": pegaValoresPacer("Sm"),
-        "Dev": pegaValoresPacer("Dev"),
-    };
+    let notas_equipe = [
+        {"Funcao": "Product Owner", ...pegaValoresPacer("Po")},
+        {"Funcao": "Scrum Master", ...pegaValoresPacer("Sm")},
+        {"Funcao": "Dev", ...pegaValoresPacer("Dev")},
+    ];
 
     if (devTeamCont >= 1){
         for (let i=2; i<=devTeamCont; i++){
-            const devKey = `Dev${i}`;
+            const devKey = `Dev${i}`;;
+
             if (document.getElementById(`dev-${i}`)) {
-                notas_equipe[devKey] = pegaValoresPacer(devKey);
+                notas_equipe.push({"Funcao": "Dev", ...pegaValoresPacer(devKey)});
             };
         };
     };
-
-    console.log(notas_equipe);
+    modalBody(notas_equipe);
     
+};
+
+const modalBody = (notas_equipe) => {
+    let tabelasContainer = document.getElementById("modal-body");
+
+    for (let pessoa of notas_equipe) {
+        let tabela = document.createElement('table');
+        tabela.classList.add('table', 'table-bordered');
+
+        let headerRow = document.createElement('thead');
+        let headerCell = document.createElement('th');
+        headerCell.setAttribute('scope', 'col');
+        headerCell.setAttribute('colspan', '2');
+        headerCell.classList.add('text-center');
+        headerCell.textContent = `${pessoa.Nome} (${pessoa.Funcao})`;
+        headerRow.appendChild(headerCell);
+        tabela.appendChild(headerRow);
+
+        let corpoTabela = document.createElement('tbody');
+        for (let categoria in pessoa.Notas) {
+            let notaPessoaTr = document.createElement('tr');
+
+
+            let categoriaTh = document.createElement('th');
+            categoriaTh.setAttribute('scope', 'row');
+            categoriaTh.textContent = categoria;
+            notaPessoaTr.appendChild(categoriaTh);
+
+
+            let notaTd = document.createElement('td');
+            notaTd.textContent = `${pessoa.Notas[categoria]}`;
+            notaPessoaTr.appendChild(notaTd);
+
+            corpoTabela.appendChild(notaPessoaTr);
+        }
+
+        tabela.appendChild(corpoTabela);
+
+        tabelasContainer.appendChild(tabela);
+    }
 };
