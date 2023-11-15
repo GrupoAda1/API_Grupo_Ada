@@ -1,8 +1,9 @@
 from flask import Blueprint, render_template
+from app.components.pacer import pacer
 
 pacer_blueprint = Blueprint('pacer', __name__)
 
 
 @pacer_blueprint.route('/pacer')
 def index():
-    return render_template("Pacer.html")
+    return render_template("Pacer.html", po_pacer=pacer("po"), sm_pacer=pacer("sm"), dev_pacer=pacer("dev"))

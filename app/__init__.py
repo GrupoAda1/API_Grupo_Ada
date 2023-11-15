@@ -13,6 +13,7 @@ def create_app(config_name):
     from app.views.eventos import eventos_blueprint
     from app.views.equipe_scrum import equipe_scrum_blueprint
     from app.views.artefatos import artefatos_blueprint
+    from app.views.pacer import pacer_blueprint
 
     app.register_blueprint(como_aplicar_blueprint)
     app.register_blueprint(referencias_blueprint)
@@ -20,6 +21,7 @@ def create_app(config_name):
     app.register_blueprint(eventos_blueprint)
     app.register_blueprint(equipe_scrum_blueprint)
     app.register_blueprint(artefatos_blueprint)
+    app.register_blueprint(pacer_blueprint)
 
     return app
 

@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block title %}Pacer{% endblock %}
+
 {% block body %}
 <div class="conteudo">
     <form action="" onsubmit="return submitForm(event)" class="mt-5">
@@ -8,135 +9,19 @@
             <div class="row">
                 <div class="input-group">
                     <span class="input-group-text">Product Owner</span>
-                    <input type="text" class="form-control" id="name_PO" placeholder="Nome do Product Owner" aria-label="PO" aria-describedby="name_PO" required>
+                    <input type="text" class="form-control" id="name_Po" placeholder="Nome do Product Owner" aria-label="Po" aria-describedby="name_Po" required>
                     <button type="button" onclick="showPacer(event, 'po_pacer')">Mostrar</button>
                 </div>
-                  <div id="po_pacer" style="display: block;">
-                    <table class="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th scope="col">Requisito</th>
-                            <th scope="col">Péssimo</th>
-                            <th scope="col">Ruim</th>
-                            <th scope="col">Bom</th>
-                            <th scope="col">Excelente</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">Proatividade</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioProatividadePO" id="inlineRadioProatividade{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioProatividade{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Autonomia</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioAutonomiaPO" id="inlineRadioAutonomia{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioAutonomia{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Colaboração</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioColaboracaoPO" id="inlineRadioColaboracao{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioColaboracao{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Entrega de Resultados</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioEntregaPO" id="inlineRadioEntrega{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioEntrega{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                        </tbody>
-                      </table>
-                </div>
+                  {{ po_pacer | safe }}
             </div>
     
             <div class="row">
                 <div class="input-group">
                     <span class="input-group-text">Scrum Master</span>
-                    <input type="text" class="form-control" id="name_SM" placeholder="Nome do Scrum Master" aria-label="SM" aria-describedby="name_SM" required>
+                    <input type="text" class="form-control" id="name_Sm" placeholder="Nome do Scrum Master" aria-label="Sm" aria-describedby="name_Sm" required>
                     <button type="button" onclick="showPacer(event, 'sm_pacer')">Mostrar</button>
                 </div>
-                <div id="sm_pacer" style="display: block;">
-                    <table class="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th scope="col">Requisito</th>
-                            <th scope="col">Péssimo</th>
-                            <th scope="col">Ruim</th>
-                            <th scope="col">Bom</th>
-                            <th scope="col">Excelente</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">Proatividade</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioProatividadeSM" id="inlineRadioProatividade{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioProatividade{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Autonomia</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioAutonomiaSM" id="inlineRadioAutonomia{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioAutonomia{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Colaboração</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioColaboracaoSM" id="inlineRadioColaboracao{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioColaboracao{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Entrega de Resultados</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioEntregaSM" id="inlineRadioEntrega{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioEntrega{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                        </tbody>
-                    </table>
-                </div>
+                {{ sm_pacer | safe }}
             </div>
     
           <div class="row">
@@ -146,65 +31,7 @@
                   <button type="button" onclick="showPacer(event, `dev{{devTeamCont}}_pacer`)">Mostrar</button>
                 </div>
     
-                <div id="dev{{devTeamCont}}_pacer" style="display: block;">
-                    <table class="table table-bordered">
-                        <thead>
-                          <tr>
-                            <th scope="col">Requisito</th>
-                            <th scope="col">Péssimo</th>
-                            <th scope="col">Ruim</th>
-                            <th scope="col">Bom</th>
-                            <th scope="col">Excelente</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">Proatividade</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioProatividadeDev" id="inlineRadioProatividade{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioProatividade{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Autonomia</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioAutonomiaDev" id="inlineRadioAutonomia{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioAutonomia{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Colaboração</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioColaboracaoDev" id="inlineRadioColaboracao{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioColaboracao{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                          <tr>
-                            <th scope="row">Entrega de Resultados</th>
-                            {% for i in range(4) %}
-                            <td>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioEntregaDev" id="inlineRadioEntrega{{i}}" value="{{i}}" checked>
-                                    <label class="form-check-label" for="inlineRadioEntrega{{i}}">{{i}}</label>
-                                </div>
-                            </td>
-                            {% endfor %}
-                          </tr>
-                        </tbody>
-                      </table>
-            </div>
+                {{ dev_pacer | safe }}
           </div>
         </div>
       
@@ -276,144 +103,88 @@
         </div>
       </div>
 </div>
-<script>
+<script type="text/javascript" src="{{ url_for('static', filename='scripts/pacer.js') }}"></script>
+<script>function adicionarDev() {
+  devTeamCont++;
 
-    let devTeamCont = 1;
-    const showPacer = (e, pacerId) => {
-      e.preventDefault()
-      let pacer = document.getElementById(pacerId);
-      
-      pacer.style.display = (pacer.style.display == 'none')? "block" : "none";
-    };
+  const novaRow = document.createElement('div');
+  novaRow.classList.add('row');
+  novaRow.id = `devPacer${devTeamCont}`;
 
-    function removerDev(devId) {
-        const devElement = document.getElementById(devId);
-        if (devElement) {
-            devElement.remove();
-        }
-    };
+  const novoDev = document.createElement('div');
+  novoDev.classList.add('input-group');
+  novoDev.id = `dev-${devTeamCont}`
+  novoDev.innerHTML = `
+      <span class="input-group-text">Dev ${devTeamCont}</span>
+      <input type="text" class="form-control" id="name_Dev${devTeamCont}" placeholder="Nome do Desenvolvedor(a)" aria-label="Dev" aria-describedby="name_Dev" required>
+      <button type="button" onclick="showPacer(event, 'dev${devTeamCont}_pacer')">Mostrar</button>
+      <button class="btn btn-danger" onclick="removerDev('devPacer${devTeamCont}')">Remover</button>`;
 
-    function adicionarDev() {
-        devTeamCont++;
+  const novoPacerDev = document.createElement('div');
+  novoPacerDev.id = `dev${devTeamCont}_pacer`
+  novoPacerDev.style.display = 'block';
+  novoPacerDev.innerHTML = `
+          <table class="table table-bordered">
+              <thead>
+                  <tr>
+                  <th scope="col">Requisito</th>
+                  <th scope="col">Péssimo</th>
+                  <th scope="col">Ruim</th>
+                  <th scope="col">Bom</th>
+                  <th scope="col">Excelente</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                  <th scope="row">Proatividade</th>
+                  {% for i in range(4) %}
+                  <td>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioProatividadeDev${devTeamCont}" id="inlineRadioProatividade{{i}}" value="{{i}}" checked>
+                          <label class="form-check-label" for="inlineRadioProatividade{{i}}">{{i}}</label>
+                      </div>
+                  </td>
+                  {% endfor %}
+                  </tr>
+                  <tr>
+                  <th scope="row">Autonomia</th>
+                  {% for i in range(4) %}
+                  <td>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioAutonomiaDev${devTeamCont}" id="inlineRadioAutonomia{{i}}" value="{{i}}" checked>
+                          <label class="form-check-label" for="inlineRadioAutonomia{{i}}">{{i}}</label>
+                      </div>
+                  </td>
+                  {% endfor %}
+                  </tr>
+                  <tr>
+                  <th scope="row">Colaboração</th>
+                  {% for i in range(4) %}
+                  <td>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioColaboracaoDev${devTeamCont}" id="inlineRadioColaboracao{{i}}" value="{{i}}" checked>
+                          <label class="form-check-label" for="inlineRadioColaboracao{{i}}">{{i}}</label>
+                      </div>
+                  </td>
+                  {% endfor %}
+                  </tr>
+                  <tr>
+                  <th scope="row">Entrega de Resultados</th>
+                  {% for i in range(4) %}
+                  <td>
+                      <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioEntregaDev${devTeamCont}" id="inlineRadioEntrega{{i}}" value="{{i}}" checked>
+                          <label class="form-check-label" for="inlineRadioEntrega{{i}}">{{i}}</label>
+                      </div>
+                  </td>
+                  {% endfor %}
+                  </tr>
+              </tbody>
+              </table>`;
 
-        const novaRow = document.createElement('div');
-        novaRow.classList.add('row');
-        novaRow.id = `devPacer${devTeamCont}`;
-
-        const novoDev = document.createElement('div');
-        novoDev.classList.add('input-group');
-        novoDev.id = `dev-${devTeamCont}`
-        novoDev.innerHTML = `
-            <span class="input-group-text">Dev ${devTeamCont}</span>
-            <input type="text" class="form-control" id="name_Dev${devTeamCont}" placeholder="Nome do Desenvolvedor(a)" aria-label="Dev" aria-describedby="name_Dev" required>
-            <button type="button" onclick="showPacer(event, 'dev${devTeamCont}_pacer')">Mostrar</button>
-            <button class="btn btn-danger" onclick="removerDev('devPacer${devTeamCont}')">Remover</button>`;
-
-        const novoPacerDev = document.createElement('div');
-        novoPacerDev.id = `dev${devTeamCont}_pacer`
-        novoPacerDev.style.display = 'block';
-        novoPacerDev.innerHTML = `
-                <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th scope="col">Requisito</th>
-                        <th scope="col">Péssimo</th>
-                        <th scope="col">Ruim</th>
-                        <th scope="col">Bom</th>
-                        <th scope="col">Excelente</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">Proatividade</th>
-                        {% for i in range(4) %}
-                        <td>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioProatividadeDev${devTeamCont}" id="inlineRadioProatividade{{i}}" value="{{i}}" checked>
-                                <label class="form-check-label" for="inlineRadioProatividade{{i}}">{{i}}</label>
-                            </div>
-                        </td>
-                        {% endfor %}
-                      </tr>
-                      <tr>
-                        <th scope="row">Autonomia</th>
-                        {% for i in range(4) %}
-                        <td>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioAutonomiaDev${devTeamCont}" id="inlineRadioAutonomia{{i}}" value="{{i}}" checked>
-                                <label class="form-check-label" for="inlineRadioAutonomia{{i}}">{{i}}</label>
-                            </div>
-                        </td>
-                        {% endfor %}
-                      </tr>
-                      <tr>
-                        <th scope="row">Colaboração</th>
-                        {% for i in range(4) %}
-                        <td>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioColaboracaoDev${devTeamCont}" id="inlineRadioColaboracao{{i}}" value="{{i}}" checked>
-                                <label class="form-check-label" for="inlineRadioColaboracao{{i}}">{{i}}</label>
-                            </div>
-                        </td>
-                        {% endfor %}
-                      </tr>
-                      <tr>
-                        <th scope="row">Entrega de Resultados</th>
-                        {% for i in range(4) %}
-                        <td>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioEntregaDev${devTeamCont}" id="inlineRadioEntrega{{i}}" value="{{i}}" checked>
-                                <label class="form-check-label" for="inlineRadioEntrega{{i}}">{{i}}</label>
-                            </div>
-                        </td>
-                        {% endfor %}
-                      </tr>
-                    </tbody>
-                  </table>`;
-
-        novaRow.appendChild(novoDev);
-        novaRow.appendChild(novoPacerDev);
-                  
-        document.getElementById('formulario_pacer').appendChild(novaRow);
-    };
-
-    const pegaNome = (nameId) => {
-        return document.querySelector(`input[id="name_${nameId}"]`).value;
-    };
-
-    const pegaValoresPacer = (nameId) => {
-        const requisitos = ["Proatividade", "Autonomia", "Colaboracao", "Entrega"];
-
-        let valores = {"Nome": pegaNome(nameId), "Notas": {"Proatividade": 0, "Autonomia": 0, "Colaboracao": 0, "Entrega": 0}};
-        for (let key of requisitos){
-            valores["Notas"][`${key}`] = document.querySelector(`input[name="inlineRadio${key}${nameId}"]:checked`).value;
-        };
-
-        return valores;
-    
-    };
-
-    const submitForm = (e) => {
-        e.preventDefault();
-
-        let notas_equipe = {
-            "ProductOwner": pegaValoresPacer("PO"),
-            "ScrumMaster": pegaValoresPacer("SM"),
-            "Dev": pegaValoresPacer("Dev"),
-        };
-
-        if (devTeamCont >= 1){
-            for (let i=2; i<=devTeamCont; i++){
-                const devKey = `Dev${i}`;
-                if (document.getElementById(`dev-${i}`)) {
-                    notas_equipe[devKey] = pegaValoresPacer(devKey);
-                };
-            };
-        };
-
-        console.log(notas_equipe);
-        
-    };
-</script>
-
+  novaRow.appendChild(novoDev);
+  novaRow.appendChild(novoPacerDev);
+              
+  document.getElementById('formulario_pacer').appendChild(novaRow);
+};</script>
 {% endblock %}
