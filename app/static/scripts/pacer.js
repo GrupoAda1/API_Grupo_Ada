@@ -48,11 +48,12 @@ const submitForm = (e) => {
         };
     };
     modalBody(notas_equipe);
-    
 };
 
 const modalBody = (notas_equipe) => {
     let tabelasContainer = document.getElementById("modal-body");
+
+    tabelasContainer.innerHTML = '';
 
     for (let pessoa of notas_equipe) {
         let tabela = document.createElement('table');
@@ -71,12 +72,10 @@ const modalBody = (notas_equipe) => {
         for (let categoria in pessoa.Notas) {
             let notaPessoaTr = document.createElement('tr');
 
-
             let categoriaTh = document.createElement('th');
             categoriaTh.setAttribute('scope', 'row');
             categoriaTh.textContent = categoria;
             notaPessoaTr.appendChild(categoriaTh);
-
 
             let notaTd = document.createElement('td');
             notaTd.textContent = `${pessoa.Notas[categoria]}`;
