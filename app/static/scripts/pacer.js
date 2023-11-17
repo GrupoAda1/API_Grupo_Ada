@@ -2,8 +2,10 @@ let devTeamCont = 1;
 const showPacer = (e, pacerId) => {
     e.preventDefault()
     let pacer = document.getElementById(pacerId);
+    let dropdownIcon = document.getElementById(`dropdown-icon-${pacerId}`);
     
     pacer.style.display = (pacer.style.display == 'none')? "block" : "none";
+    dropdownIcon.style.transform = (pacer.style.display == 'none') ? 'rotate(180deg)' : 'rotate(0)';
 };
 
 function removerDev(devId) {
@@ -61,7 +63,7 @@ const modalBody = (notas_equipe) => {
 
         let headerRow = document.createElement('thead');
         let headerCell = document.createElement('th');
-        headerCell.setAttribute('scope', 'col');
+        headerCell.setAttribute('scope', 'col-6');
         headerCell.setAttribute('colspan', '2');
         headerCell.classList.add('text-center');
         headerCell.textContent = `${pessoa.Nome} (${pessoa.Funcao})`;

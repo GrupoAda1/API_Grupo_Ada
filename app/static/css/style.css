@@ -161,3 +161,8 @@ margin-left: 13%;
 margin-right: 10%;
 margin-top: 1%;
 }
+
+.dropdown-icon {
+  transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
