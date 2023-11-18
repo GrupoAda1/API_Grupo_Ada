@@ -4,13 +4,17 @@
 
 {% block body %}
 <div class="conteudo">
-    <form action="" onsubmit="return submitForm(event)" class="mt-5">
+    <form action="" onsubmit="mostrarNotasFinaisEquipe(event)" class="mt-5">
         <div id="formulario_pacer" class="gap-5">
             <div class="row">
                 <div class="input-group">
                     <span class="input-group-text">Product Owner</span>
                     <input type="text" class="form-control" id="name_Po" placeholder="Nome do Product Owner" aria-label="Po" aria-describedby="name_Po" required>
-                    <button type="button" class="btn btn_dropdown p-0" onclick="showPacer(event, 'po_pacer')"><i class="input-group-text dropdown-icon mdi mdi-menu-down" id="dropdown-icon-po_pacer"></i></button>
+                    <button type="button" class="btn btn_dropdown p-0" onclick="mostrarPacerIndividual('po_pacer')">
+                      <div class="input-group-text">
+                        <i class="dropdown-icon mdi mdi-menu-down" id="dropdown-icon-po_pacer"></i>
+                      </div>
+                    </button>
                 </div>
                   {{ po_pacer | safe }}
             </div>
@@ -19,7 +23,11 @@
                 <div class="input-group">
                     <span class="input-group-text">Scrum Master</span>
                     <input type="text" class="form-control" id="name_Sm" placeholder="Nome do Scrum Master" aria-label="Sm" aria-describedby="name_Sm" required>
-                    <button type="button" class="btn btn_dropdown p-0" onclick="showPacer(event, 'sm_pacer')"><i class="input-group-text dropdown-icon mdi mdi-menu-down" id="dropdown-icon-sm_pacer"></i></button>
+                    <button type="button" class="btn btn_dropdown p-0" onclick="mostrarPacerIndividual('sm_pacer')">
+                      <div class="input-group-text">
+                        <i class="dropdown-icon mdi mdi-menu-down" id="dropdown-icon-sm_pacer"></i>
+                      </div>
+                    </button>
                 </div>
                 {{ sm_pacer | safe }}
             </div>
@@ -28,31 +36,34 @@
                 <div class="input-group" id="name_Dev1">
                   <span class="input-group-text">Dev 1</span>
                   <input type="text" class="form-control" id="name_Dev" placeholder="Nome do Desenvolvedor(a)" aria-label="Dev" aria-describedby="name_Dev" required>
-                  <button type="button" class="btn btn_dropdown p-0" onclick="showPacer(event, `dev{{devTeamCont}}_pacer`)"><i class="input-group-text dropdown-icon mdi mdi-menu-down" id="dropdown-icon-dev_pacer"></i></button>
                   <button type="button" class="btn p-0" onclick="adicionarDev()"><i class="input-group-text dropdown-icon mdi mdi-plus"></i></button>
+                  <button type="button" class="btn btn_dropdown p-0" onclick="mostrarPacerIndividual(`dev{{devTeamCont}}_pacer`)">
+                    <div class="input-group-text">
+                      <i class="dropdown-icon mdi mdi-menu-down" id="dropdown-icon-dev{{devTeamCont}}_pacer"></i>
+                    </div>
+                  </button>
                 </div>
     
                 {{ dev_pacer | safe }}
           </div>
         </div>
       
-      <button type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Prosseguir</button>
+      <div class="d-flex justify-content-end mt-3">
+        <button type="submit" class="rounded-3 py-1 px-2 btn-secondary" data-open-modal>Mostrar Resultados</button>
+      </div>
     </form>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Notas Finais da Equipe:</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body" id="modal-body"></div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Baixar PDF</button>
-            </div>
-          </div>
+    <dialog id="customModal" class="w-25 m-auto border-0 shadow-lg rounded-2 p-3">
+        <div class="d-flex justify-content-between p-3">
+          <h1 class="modal_titulo fs-5">Notas Finais da Equipe:</h1>
+          <button type="button" onclick="fecharModal()" class="btn-close"></button>
         </div>
-      </div>
+        <div class="p-3" id="modal-body"></div>
+        <div class="d-flex p-1 justify-content-end">
+          <button type="button" class="btn btn-secondary" onclick="fecharModal()">Fechar</button>
+        </div>
+    </dialog>
+
 </div>
 <script type="text/javascript" src="{{ url_for('static', filename='scripts/pacer.js') }}"></script>
 <script>function adicionarDev() {
@@ -68,10 +79,10 @@
   novoDev.innerHTML = `
       <span class="input-group-text">Dev ${devTeamCont}</span>
       <input type="text" class="form-control" id="name_Dev${devTeamCont}" placeholder="Nome do Desenvolvedor(a)" aria-label="Dev" aria-describedby="name_Dev" required>
-      <button type="button" class="btn p-0" onclick="showPacer(event, 'dev${devTeamCont}_pacer')"><i class="input-group-text dropdown-icon mdi mdi-menu-down" id="dropdown-icon-dev${devTeamCont}_pacer"></i></button>
       <button type="button" class="btn p-0" onclick="adicionarDev()"><i class="input-group-text dropdown-icon mdi mdi-plus"></i></button>
-      <button class="btn p-0" onclick="removerDev('devPacer${devTeamCont}')"><i class="input-group-text dropdown-icon mdi mdi-trash-can"></i></button>`;
-
+      <button class="btn p-0" onclick="removerDev('devPacer${devTeamCont}')"><i class="input-group-text dropdown-icon mdi mdi-trash-can"></i></button>
+      <button type="button" class="btn p-0" onclick="mostrarPacerIndividual('dev${devTeamCont}_pacer')"><div class="input-group-text"><i class="dropdown-icon mdi mdi-menu-down" id="dropdown-icon-dev${devTeamCont}_pacer"></i></div></button>`;
+      
   const novoPacerDev = document.createElement('div');
   novoPacerDev.id = `dev${devTeamCont}_pacer`
   novoPacerDev.style.display = 'block';

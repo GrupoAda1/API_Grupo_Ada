@@ -1,6 +1,7 @@
-let devTeamCont = 1;
-const showPacer = (e, pacerId) => {
-    e.preventDefault()
+let devTeamCont = 1; 
+const modal = document.getElementById("customModal");
+   
+const mostrarPacerIndividual = (pacerId) => {
     let pacer = document.getElementById(pacerId);
     let dropdownIcon = document.getElementById(`dropdown-icon-${pacerId}`);
     
@@ -8,7 +9,7 @@ const showPacer = (e, pacerId) => {
     dropdownIcon.style.transform = (pacer.style.display == 'none') ? 'rotate(180deg)' : 'rotate(0)';
 };
 
-function removerDev(devId) {
+const removerDev = (devId) => {
     const devElement = document.getElementById(devId);
     if (devElement) {
         devElement.remove();
@@ -31,7 +32,56 @@ const pegaValoresPacer = (nameId) => {
 
 };
 
-const submitForm = (e) => {
+const adicionaBodyModal = (notas_equipe) => {
+    let tabelasContainer = document.getElementById("modal-body");
+
+    tabelasContainer.innerHTML = '';
+
+    for (let pessoa of notas_equipe) {
+        let tabela = document.createElement('table');
+        tabela.classList.add('table', 'table-bordered');
+
+        let headerRow = document.createElement('thead');
+        let headerCell = document.createElement('th');
+        headerCell.setAttribute('colspan', '2');
+        headerCell.classList.add('modal_titulo', 'text-center', 'border-0', 'fs-5', 'fw-bold');
+        headerCell.textContent = `${pessoa.Nome} (${pessoa.Funcao})`;
+        headerRow.appendChild(headerCell);
+        tabela.appendChild(headerRow);
+
+        let corpoTabela = document.createElement('tbody');
+        for (let categoria in pessoa.Notas) {
+            let notaPessoaTr = document.createElement('tr');
+            notaPessoaTr.classList.add('row')
+
+            let categoriaTh = document.createElement('th');
+            categoriaTh.classList.add('col-6')
+            categoriaTh.textContent = categoria;
+            notaPessoaTr.appendChild(categoriaTh);
+
+            let notaTd = document.createElement('td');
+            notaTd.classList.add('col-6')
+            notaTd.textContent = `${pessoa.Notas[categoria]}`;
+            notaPessoaTr.appendChild(notaTd);
+
+            corpoTabela.appendChild(notaPessoaTr);
+        }
+
+        tabela.appendChild(corpoTabela);
+
+        tabelasContainer.appendChild(tabela);
+    }
+};
+
+const mostrarModal = () => {
+    modal.showModal();
+};
+
+const fecharModal = () => {
+    modal.close();
+};
+
+const mostrarNotasFinaisEquipe = (e) => {
     e.preventDefault();
 
     let notas_equipe = [
@@ -49,45 +99,7 @@ const submitForm = (e) => {
             };
         };
     };
-    modalBody(notas_equipe);
-};
 
-const modalBody = (notas_equipe) => {
-    let tabelasContainer = document.getElementById("modal-body");
-
-    tabelasContainer.innerHTML = '';
-
-    for (let pessoa of notas_equipe) {
-        let tabela = document.createElement('table');
-        tabela.classList.add('table', 'table-bordered');
-
-        let headerRow = document.createElement('thead');
-        let headerCell = document.createElement('th');
-        headerCell.setAttribute('scope', 'col-6');
-        headerCell.setAttribute('colspan', '2');
-        headerCell.classList.add('text-center');
-        headerCell.textContent = `${pessoa.Nome} (${pessoa.Funcao})`;
-        headerRow.appendChild(headerCell);
-        tabela.appendChild(headerRow);
-
-        let corpoTabela = document.createElement('tbody');
-        for (let categoria in pessoa.Notas) {
-            let notaPessoaTr = document.createElement('tr');
-
-            let categoriaTh = document.createElement('th');
-            categoriaTh.setAttribute('scope', 'row');
-            categoriaTh.textContent = categoria;
-            notaPessoaTr.appendChild(categoriaTh);
-
-            let notaTd = document.createElement('td');
-            notaTd.textContent = `${pessoa.Notas[categoria]}`;
-            notaPessoaTr.appendChild(notaTd);
-
-            corpoTabela.appendChild(notaPessoaTr);
-        }
-
-        tabela.appendChild(corpoTabela);
-
-        tabelasContainer.appendChild(tabela);
-    }
+    adicionaBodyModal(notas_equipe);
+    mostrarModal();
 };

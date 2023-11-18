@@ -118,6 +118,7 @@ font-size: 18px;
   font-family: recursive;
   font-size: 18px;
   font-weight: 500px;
+  
 }
 
 .titulo {
@@ -166,3 +167,11 @@ margin-top: 1%;
   transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
+.modal_titulo {
+  color: #264466;
+}
+
+dialog:-internal-dialog-in-top-layer::backdrop {
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.4);
+}
