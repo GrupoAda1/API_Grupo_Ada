@@ -1,0 +1,7 @@
+O formulário abaixo é uma ferramenta para a autoavaliação do comportamento dos integrantes da equipe ao longo da Sprint, proporcionando um melhor entendimento sobre os pontos fortes de cada um e auxiliando na implantação das medidas necessárias para obter melhorias. 
+Tal avalização possui 4 critérios principais: 
+ - Proatividade: o integrante foca nas tarefas mais importantes, não procrastina para realizá-las e é eficiente.
+ - Autonomia: o integrante assume as responsabilidades, sabe o que fazer e quando.  
+ - Colaboração: o indivíduo é complacente com o trabalho em equipe, auxiliando nas tomadas de decisões e comunicações com os demais.
+ - Entrega de Resultados: o integrante entregou tudo o que foi proposto dentro do prazo estipulado e sem erros.
+Deve-se atribuir uma nota de 0 a 3 para cada um desses critérios, sendo 0 quando o integrante não conseguiu apresentar/desenvolver nenhuma dessas características, e 3 quando esse atingiu perfeitamente os critérios listados. 
