@@ -37,12 +37,17 @@
   <a href="#">
     <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
   </a>
+
+  <a href="#">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  </a>
+
   
 </div>
 <br>
 
 <br>
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=ff6600&style=for-the-badge" />
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=4CAF50&style=for-the-badge" />
 <br>
 
 ## 🎯 Objetivo do projeto 
@@ -65,7 +70,7 @@
 <h3>• Sprint 1 (04/09 - 24/09): <a href="#-wireframe">Wireframe</a> (Concluído:heavy_check_mark:) </h3>
 <h3>• Sprint 2 (25/09 - 15/10): <a href="#mvp-sprint-2-site">HTML do site</a> (Concluído:heavy_check_mark:) </h3>
 <h3>• Sprint 3 (16/10 - 05/11): Flask (Concluído:heavy_check_mark:) </h3>
-<h3>• Sprint 4 (06/11 - 26/11): Aguardando data de início :calendar:</h3>
+<h3>• Sprint 4 (06/11 - 26/11): Bootstrap (Concluído:heavy_check_mark:) </h3>
 <br>
 
 ## 📝 Backlogs
@@ -82,9 +87,9 @@
 |  #09  |  3  |  Testes de Funcionalidade  |   Testar as funcionalidades implementadas  |  5h  |  :heavy_check_mark:  |  45  |
 |  #10  |  3  |  Otimização de Desempenho  |   Otimizar o desempenho do site e refinar scripts  |  8h  |  :heavy_check_mark:  |  40  |
 |  #11  |  3  |  Preparação para a entrega  |   Preparar o site para lançamento, incluindo revisões finais e testes de segurança  |  4h  |  :heavy_check_mark:  |  30  |
-|  #12  |  4  |  Documentação  |   Criar documentação interna e externa para o site  |  8h  |  :x:  |  20  |
-|  #13  |  4  |  Entrega  |   Realizar a entrega final do produto  |  4h  |  :x:  |  30  |
-|  #14  |  4  |  Avaliação pós-lançamento  |   Coletar feedback dos usuários e planejar melhorias  |  4h  |  :x:  |  25  |
+|  #12  |  4  |  Documentação  |   Criar documentação interna e externa para o site  |  8h  |  :heavy_check_mark:  |  20  |
+|  #13  |  4  |  Entrega  |   Realizar a entrega final do produto  |  4h  |  :heavy_check_mark:  |  30  |
+|  #14  |  4  |  Avaliação pós-lançamento  |   Coletar feedback dos usuários e planejar melhorias  |  4h  |  :heavy_check_mark:  |  25  |
 <br>
 
 ## 🎨 Wireframe
